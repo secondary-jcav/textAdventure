@@ -1,5 +1,5 @@
 from clint.textui import prompt
-import introText as chapter
+from Text import introText as chapter
 from utils import print_part
 
 

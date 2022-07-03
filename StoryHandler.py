@@ -1,3 +1,6 @@
+"""
+Class that will handle transition between chapters, etc.
+"""
 from clint.textui import prompt
 
 
