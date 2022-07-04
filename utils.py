@@ -23,10 +23,16 @@ def print_part(text, splitter='\n'):
     :param text: text chunk to split
     :param splitter: character to use as divider
     """
-    for line in text.split(splitter):
+    text_list = text.split(splitter)
+    text_list.pop()
+    for line in text_list:
         print(line)
-        time.sleep(4)
-    time.sleep(4)
+        if text_list.index(line) != len(text_list)-1:
+            time.sleep(3)  # if not last line, wait a bit until next line is printed
+        else:
+            print('\n')
+
+    time.sleep(1)
 
 
 def print_end(end_message, font):

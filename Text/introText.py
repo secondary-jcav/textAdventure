@@ -2,14 +2,14 @@ start_options = [{'selector': '1', 'prompt': 'The campsite! ', 'return': '1'},
                  {'selector': '2', 'prompt': 'The middle of the woods!', 'return': '2'}]
 
 start = '“Ahh, here we are.” Samuel stepped out of the car and took a deep breath.\n' \
-        ' The smells of the pines filled the air as wind swept down off the mountains. “The Woods of Darkness.”\n' \
+        'The smells of the pines filled the air as wind swept down off the mountains. “The Woods of Darkness.”\n' \
         '“I still don’t get why it’s called the ‘Woods of Darkness.’” Livia climbed out of the passenger’s seat,\n' \
-        ' then walked around to the trunk, where she began to unload the camping supplies.\n' \
+        'then walked around to the trunk, where she began to unload the camping supplies.\n' \
         '“There’s nothing that dark about it. It’s just an ordinary patch of woods.”\n' \
         '“An ordinary patch of woods home to the most fearsome monster the world has ever seen!” Samuel grinned.\n' \
         '“My grandpa told me all about it! It has horns, and thick wool filled with tree branches, leaves, and the bones of its victims!”\n' \
         '“You grandpa tells you all sorts of things.” Livia sighed and slung a backpack over her shoulders.\n' \
-        '“In any case, we’re here. You drug me out. Whoopee. Now, where are we camping?\n'
+        '“In any case, we’re here. You drug me out. Whoopee. Now, where are we camping?"\n'
 
 part_A = '“Oh, we’re camping in the campsite.” \n' \
          'Samuel started walking out of the parking lot toward the marked location for tents and campfires. \n' \
