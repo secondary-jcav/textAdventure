@@ -28,7 +28,7 @@ def print_part(text, splitter='\n'):
     for line in text_list:
         print(line)
         if text_list.index(line) != len(text_list)-1:
-            time.sleep(3)  # if not last line, wait a bit until next line is printed
+            time.sleep(2)  # if not last line, wait a bit until next line is printed
         else:
             print('\n')
 
