@@ -1,12 +1,16 @@
 from clint.textui import prompt
 from Text import introText as chapter
 from utils import print_part
+from chapterOne import ChapterOne as ch1
 
 
 class Introduction:
 
     def __init__(self):
+        self.next_part = ch1()
         self.scene_start()
+
+
 
     def scene_start(self):
         print_part(chapter.start)
@@ -44,10 +48,11 @@ class Introduction:
         elif choice == '2':
             self.scene_g()
 
-    @staticmethod
-    def scene_d():
+
+    def scene_d(self):
         print_part(chapter.part_D)
         print('\n\n')
+        self.next_part.scene_a()
         return True
 
     @staticmethod
